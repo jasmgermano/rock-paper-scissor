@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, papel, tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all">
+        <div class="container">
+            <div class="game-area">
+                <div class="circles">
+                    <div id="first-circle" class="circle"></div>
+                    <div id="second-circle" class="circle"></div>
+                    <div id="third-circle" class="circle"></div>
+                </div>
+                <div class="title">Pedra, papel, ou tesoura?</div>
+                <section id="robot" class="game">
+                    <div class="points">
+                        <p class="r-score score">0</p>
+                    </div>
+                    <div id="r-profile" class="profile">
+                        <img src="imgs/robot.png" alt="">
+                    </div>
+                    <div id="robot-wins" class="win"></div>
+                    <div id="rps-robot" class="rps">
+                        
+                    </div>
+                </section>
+                <div class="line"></div>
+                <section id="human" class="game">
+                    <div class="points">
+                        <p class="p-score score">0</p>
+                    </div>
+                    <div id="p-profile" class="profile">
+                        <img src="imgs/avatar.png" alt="">
+                    </div>
+                    <div id="player-wins" class="win"></div>
+                    <div id="rps-player" class="rps">
+                        
+                    </div>
+                </section>
+                <div class="choice">
+                    <button class="scissor"></button>
+                    <button class="rock"></button>
+                    <button class="paper"></button>
+                    <p class="winner"></p>
+                    <button class="reload">Jogar novamente</button>
+                </div>
+            </div>
+        </div>
+        <p class="option">escolha sua opção</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
